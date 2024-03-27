@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+Lao+Looped:wght@100..900&family=Rosario:ital,wght@0,300..700;1,300..700&display=swap');
+
+/*Reset no CSS padrão da página*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+/*Cabelhaço*/
+body > header {
+    background-color: rgb(80, 78, 78);
+    padding: 16px 60px 16px 0px;
+    color: white;
+    align-items: center;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+header li a:hover{
+    color: rgb(179, 182, 197);
+}
+
+/*Estrutura para estilizar todo o corpo, utilizando as `divs` */ 
+.container {
+    margin: 0px 10%;
+}
+
+.container .articles article {
+    width: 30%;
+    margin: 8px;
+}
+
+/*Estrutura para estilizar as divs dos artigos*/
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.articles article img {
+    width: 100%;
+    height: 48%;
+    border-radius: 5px;
+    align-items: center;
+}
+
+
+
+/*Estilizando as duas sessões da página Esportes e Economia*/ 
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin: 8px 0px 2px 0px;
+}
+
+.articles article p {
+    font-size: 14px;
+}
+
+.articles article h3 {
+    font-size: 18px;
+}
+
+.articles time {
+    font-size: 12px;
+}
+
+section h2 {
+    font-size: 24px;
+}
+
+#sports {
+    background-color: rgb(225, 252, 236);
+}
+
+#sports h2 {
+    width: 100px;
+    border-bottom: 2px solid rgb(93, 187, 93);
+}
+
+#sports .articles article a{
+    margin-top: 8px;
+    background-color: rgb(93, 187, 93);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: inline-block; /*por padrão a tag vem como inline, então
+    mudamos para inline-block para que não tenha sobreposição*/
+    text-decoration: none;
+}
+
+#sports .articles article a:hover {
+    text-decoration: underline;
+}
+
+#economy {
+    background-color: rgb(245, 242, 208);
+}
+
+#economy h2 {
+    width: 110px;
+    border-bottom: 2px solid rgb(241, 152, 35);
+}
+
+#economy .articles article a {
+    margin-top: 8px;
+    background-color: rgb(241, 152, 35);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: inline-block; /*por padrão a tag vem como inline, então
+    mudamos para inline-block para que não tenha sobreposição*/
+    text-decoration: none;
+}
+
+#economy .articles article a:hover {
+    text-decoration: underline;
+}
+
+#technology {
+    background-color: rgb(192, 252, 249);
+}
+
+#technology h2 {
+    width: 120px;
+    border-bottom: 2px solid rgb(36, 175, 175);
+}
+
+#technology .articles article a {
+    margin-top: 8px;
+    background-color: rgb(36, 175, 175);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: inline-block; /*por padrão a tag vem como inline, então
+    mudamos para inline-block para que não tenha sobreposição*/
+    text-decoration: none;
+}
+
+#technology .articles article a:hover {
+    text-decoration: underline;
+}
+
+#health {
+    background-color: rgb(252, 175, 184);
+}
+
+#health h2 {
+    width: 70px;
+    border-bottom: 2px solid rgb(184, 60, 60);
+}
+
+#health .articles article a {
+    margin-top: 8px;
+    background-color: rgb(184, 60, 60);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: inline-block; /*por padrão a tag vem como inline, então
+    mudamos para inline-block para que não tenha sobreposição*/
+    text-decoration: none;
+}
+
+#health .articles article a:hover {
+    text-decoration: underline;
+}
