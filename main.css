@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Combo&family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+Lao+Looped:wght@100..900&family=Rosario:ital,wght@0,300..700;1,300..700&display=swap');
 
-/*Reset no CSS padrão da página*/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,7 +7,6 @@
     font-family: "Noto Sans KR", sans-serif;
 }
 
-/*Cabelhaço*/
 body > header {
     background-color: rgb(80, 78, 78);
     padding: 16px 60px 16px 0px;
@@ -38,7 +36,6 @@ header li a:hover{
     color: rgb(179, 182, 197);
 }
 
-/*Estrutura para estilizar todo o corpo, utilizando as `divs` */ 
 .container {
     margin: 0px 10%;
 }
@@ -48,7 +45,6 @@ header li a:hover{
     margin: 8px;
 }
 
-/*Estrutura para estilizar as divs dos artigos*/
 .articles {
     display: flex;
     flex-wrap: wrap;
@@ -61,9 +57,6 @@ header li a:hover{
     align-items: center;
 }
 
-
-
-/*Estilizando as duas sessões da página Esportes e Economia*/ 
 section {
     padding: 16px 0;
 }
@@ -89,6 +82,21 @@ section h2,
     font-size: 12px;
 }
 
+.container .articles article a{
+    margin-top: 8px;
+    background-color: rgb(93, 187, 93);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.container .articles article a:hover {
+    text-decoration: underline;
+}
+
 section h2 {
     font-size: 24px;
 }
@@ -103,19 +111,7 @@ section h2 {
 }
 
 #sports .articles article a{
-    margin-top: 8px;
     background-color: rgb(93, 187, 93);
-    color: white;
-    padding: 5px;
-    border-radius: 5px;
-    font-size: 14px;
-    display: inline-block; /*por padrão a tag vem como inline, então
-    mudamos para inline-block para que não tenha sobreposição*/
-    text-decoration: none;
-}
-
-#sports .articles article a:hover {
-    text-decoration: underline;
 }
 
 #economy {
@@ -128,20 +124,9 @@ section h2 {
 }
 
 #economy .articles article a {
-    margin-top: 8px;
     background-color: rgb(241, 152, 35);
-    color: white;
-    padding: 5px;
-    border-radius: 5px;
-    font-size: 14px;
-    display: inline-block; /*por padrão a tag vem como inline, então
-    mudamos para inline-block para que não tenha sobreposição*/
-    text-decoration: none;
 }
 
-#economy .articles article a:hover {
-    text-decoration: underline;
-}
 
 #technology {
     background-color: rgb(192, 252, 249);
@@ -153,19 +138,7 @@ section h2 {
 }
 
 #technology .articles article a {
-    margin-top: 8px;
     background-color: rgb(36, 175, 175);
-    color: white;
-    padding: 5px;
-    border-radius: 5px;
-    font-size: 14px;
-    display: inline-block; /*por padrão a tag vem como inline, então
-    mudamos para inline-block para que não tenha sobreposição*/
-    text-decoration: none;
-}
-
-#technology .articles article a:hover {
-    text-decoration: underline;
 }
 
 #health {
@@ -178,17 +151,5 @@ section h2 {
 }
 
 #health .articles article a {
-    margin-top: 8px;
     background-color: rgb(184, 60, 60);
-    color: white;
-    padding: 5px;
-    border-radius: 5px;
-    font-size: 14px;
-    display: inline-block; /*por padrão a tag vem como inline, então
-    mudamos para inline-block para que não tenha sobreposição*/
-    text-decoration: none;
-}
-
-#health .articles article a:hover {
-    text-decoration: underline;
 }
