@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.container {
+    width: 600px;
+    border: 1px solid rgb(23, 26, 25);
+    border-radius: 5px;
+    margin: 50px;
+    background-color: rgb(241, 241, 241);
+    height: 400px;
+}
+
+header {
+    margin: 30px;
+}
+
+header h1 {
+    color: rgb(48, 48, 199);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    margin-bottom: 25px;
+
+}
+
+header p {
+    color: black;
+    width: 430px;
+    border-bottom: 1px solid rgb(175, 170, 170);
+}
+
+form {
+    display: grid;
+    margin: 30px;
+    width: 210px;
+    border-radius: 5px;
+
+}
+
+form div {
+    margin: 4px;
+}
+
+form label {
+    margin: 5px;
+    text-align: center;
+    color: rgb(99, 99, 211);
+}
+
+form input {
+    width: 80px;
+    color: blue;
+}
+
+button {
+    width: 180px;
+    height: 35px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: rgb(11, 85, 197);
+    border-color: transparent;
+    color: white;
+}
+
+button:active {
+    background-color: rgb(45, 11, 197);
+
+}
+
+.tratativas {
+    margin: 50px;
+    color: rgb(4, 134, 4);
+}
+
+.erro-iguais, .erro{
+    color: red;
+}

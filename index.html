@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Atividade</h1>
+            <p>Caso o 2º número seja maior que o 1º, o formulário será validado.</p>
+        </header>
+
+        <form id="formulario">
+            <div>
+                <label for="numA">1º - Número</label>
+                <input id="numA" type="number" required>
+            </div>
+            <div>
+                <label for="numB">2º - Número</label>
+                <input id="numB" type="number" required>
+            </div>
+            <button id="btn-enviar" type="submit">Enviar</button>
+
+        </form>
+        <div class="tratativas">
+            <p class="erro-iguais"></p>
+            <p class="sucesso"></p>
+            <p class="erro"></p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
