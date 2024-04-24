@@ -5,12 +5,12 @@ $(document).ready(function () {
 
         const inputTarefa = $('input').val();
         const novaTarefa = $('.lista');
-        $(`<ul> <li> ${inputTarefa}</li> </ul>`).appendTo(novaTarefa);
+        $(`<li> ${inputTarefa}</li>`).appendTo(novaTarefa);
         $('input').val('');
 
 
-        $(novaTarefa).click(function () {
-            $('li').css("text-decoration", "line-through") 
+        $("ul").on("click", "li", function () {
+            $(this).css("text-decoration", "line-through") 
         });
     
     
