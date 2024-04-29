@@ -1,0 +1,12 @@
+.main {
+    margin: 80px;
+    max-width: 500px;
+    border: 1px solid rgb(199, 110, 9);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.btn-success {
+    margin-top: 10px;
+}
+
