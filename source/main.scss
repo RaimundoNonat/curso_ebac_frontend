@@ -3,7 +3,7 @@
 
 body {
     background-color: variaveis.$corDeFundo;
-    
+
     li {
         list-style: none;
     }
@@ -32,12 +32,12 @@ header {
     .menu {
         display: flex;
     }
-    
+
     .menu li {
         font-weight: bold;
         margin-left: 24px;
     }
-    
+
     .menu li a {
         color: #fff;
         text-decoration: none;
@@ -56,12 +56,12 @@ section {
         row-gap: 4%;
         width: 100%;
     }
-    
+
     .product-item img {
         width: 100%;
         border-radius: 16px;
     }
-    
+
     .product-button {
         display: block;
         background-color: variaveis.$corSecundaria;
@@ -71,11 +71,13 @@ section {
         border-radius: 8px;
         margin-top: 8px;
         text-decoration: none;
+
+        &:hover {
+            background-color: lighten(variaveis.$corSecundaria, 15%);
+        }
     }
-    
-    .product-button:hover {
-        background-color: #4cd137;
-    }
+
+
 }
 
 
@@ -85,7 +87,7 @@ section {
             max-width: 80%;
             margin: 0 auto;
         }
-    }   
+    }
 
     section {
         .products {
@@ -103,9 +105,8 @@ section {
     }
 
     section {
-        .product-item  {
+        .product-item {
             margin-bottom: 32px;
         }
     }
 }
-
